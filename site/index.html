@@ -26,7 +26,7 @@
 <link rel="stylesheet" href="./assets/style.css">
 <script src="./assets/site.js" defer></script>
 </head>
-<body>
+<body class="home">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap">
@@ -39,64 +39,41 @@
   </div>
 </header>
 <main id="main">
-<section class="hero wrap">
-  <p class="kicker">For expecting and new moms</p>
-  <h1>Buy less, buy right, and skip the regrets.</h1>
-  <p class="lede">Little Nest Notes compares the baby and postpartum gear parents actually use, with real prices, real downsides and a recall check on everything. Big-ticket picks, budget alternatives, and an honest "you don't need this" whenever it's true.</p>
-  <div class="hero-cta">
-    <a class="btn btn-lg" href="#guides">Find the right guide</a>
-    <a class="alt" href="./black-friday-baby-deals/">Or see this week's Black Friday baby deals</a>
-  </div>
-  <div class="pill-row">
-    <span class="pill">Prices checked November 2026</span>
-    <span class="pill">CPSC recall-checked</span>
-    <span class="pill">Follows AAP safe-sleep guidance</span>
-    <span class="pill">Affiliate links disclosed</span>
+<section class="hero">
+  <svg class="hero-moon" viewBox="0 0 100 100" aria-hidden="true"><path d="M62 10a40 40 0 1 0 28 62A34 34 0 0 1 62 10z" fill="currentColor"/><circle cx="20" cy="22" r="2.5" fill="currentColor" opacity=".7"/><circle cx="84" cy="88" r="2" fill="currentColor" opacity=".6"/></svg>
+  <div class="wrap">
+    <h1>Buy less, buy right, and skip the regrets.</h1>
+    <p class="lede">Honest comparisons of the baby and postpartum gear parents actually use: real prices, real downsides and a recall check on everything. Written to be read one-handed, mid-feed, at 3am.</p>
+    <div class="hero-cta">
+      <a class="btn btn-lg" href="#guides">Find the right guide</a>
+      <a class="alt" href="./black-friday-baby-deals/">See this week's Black Friday baby deals</a>
+    </div>
+    <ul class="trust">
+      <li>Prices checked November 2026</li>
+      <li>Every product checked for CPSC recalls</li>
+      <li>Follows AAP safe-sleep guidance</li>
+      <li>Affiliate links always labelled</li>
+    </ul>
   </div>
 </section>
 
 <section class="wrap" id="guides" aria-labelledby="guides-h">
-  <h2 id="guides-h">The guides</h2>
-  <div class="grid">
-    <div class="card">
-      <span class="tag">Deals &middot; On now</span>
-      <h3><a href="./black-friday-baby-deals/">Black Friday baby deals 2026</a></h3>
-      <p>Announced sale dates for bottle washers, monitors, crib mattresses, strollers and carriers, plus what's actually worth buying.</p>
-    </div>
-    <div class="card">
-      <span class="tag">Pumping</span>
-      <h3><a href="./best-wearable-breast-pump/">Best wearable breast pumps</a></h3>
-      <p>Momcozy, eufy, Willow, Elvie and budget picks for working moms and exclusive pumpers, plus how to get one through insurance.</p>
-    </div>
-    <div class="card">
-      <span class="tag">Pumping &middot; Comparison</span>
-      <h3><a href="./momcozy-m5-vs-m9-vs-eufy-s1/">Momcozy M5 vs M9 vs eufy S1</a></h3>
-      <p>The four wearable pumps parents compare most: suction, battery, warming, app and the real complaints.</p>
-    </div>
-    <div class="card">
-      <span class="tag">Bottle feeding</span>
-      <h3><a href="./best-baby-bottle-washer/">Best baby bottle washers (and are they worth it?)</a></h3>
-      <p>KleanPal Pro vs Baby Brezza vs eufy: capacity, counter space and the hours you actually get back.</p>
-    </div>
-    <div class="card">
-      <span class="tag">Postpartum</span>
-      <h3><a href="./c-section-recovery-essentials/">C-section recovery essentials and hospital bag checklist</a></h3>
-      <p>What helps after birth, what the hospital already gives you, and what to skip.</p>
-    </div>
-    <div class="card">
-      <span class="tag">Nursery</span>
-      <h3><a href="./best-baby-monitor-without-wifi/">Best baby monitors without WiFi</a></h3>
-      <p>Private, subscription-free monitors compared with Nanit and Owlet, and what pediatricians say about breathing trackers.</p>
-    </div>
-    <div class="card">
-      <span class="tag">Registry</span>
-      <h3><a href="./minimalist-baby-registry/">Minimalist baby registry for small spaces</a></h3>
-      <p>A lean, data-backed list, plus Babylist vs Amazon vs Target for where to put it.</p>
-    </div>
+  <div class="index-head">
+    <h2 id="guides-h">The guides</h2>
+    <p>Pick the topic you're stuck on.</p>
   </div>
+  <ul class="index">
+    <li class="idx" data-cat="deals"><span class="idx-tab">Deals<span class="idx-live">On until Dec 7</span></span><div class="idx-body"><h3><a href="./black-friday-baby-deals/">Black Friday baby deals 2026</a></h3><p>Announced sale dates for pumps, bottle washers, monitors, crib mattresses, strollers and carriers, plus what's actually worth buying.</p></div></li>
+    <li class="idx" data-cat="pump"><span class="idx-tab">Pumping</span><div class="idx-body"><h3><a href="./best-wearable-breast-pump/">Best wearable breast pumps</a></h3><p>Momcozy, eufy, Willow, Elvie and budget picks for working moms and exclusive pumpers, plus how to get one through insurance.</p></div></li>
+    <li class="idx" data-cat="pump"><span class="idx-tab">Pumping</span><div class="idx-body"><h3><a href="./momcozy-m5-vs-m9-vs-eufy-s1/">Momcozy M5 vs M9 vs eufy S1</a></h3><p>The wearable pumps parents compare most: suction, battery, warming, app and the real complaints.</p></div></li>
+    <li class="idx" data-cat="bottle"><span class="idx-tab">Bottle feeding</span><div class="idx-body"><h3><a href="./best-baby-bottle-washer/">Best baby bottle washers (and are they worth it?)</a></h3><p>KleanPal Pro vs Baby Brezza vs eufy: capacity, counter space and the hours you actually get back.</p></div></li>
+    <li class="idx" data-cat="post"><span class="idx-tab">Postpartum</span><div class="idx-body"><h3><a href="./c-section-recovery-essentials/">C-section recovery essentials and hospital bag checklist</a></h3><p>What helps after birth, what the hospital already gives you, and what to skip.</p></div></li>
+    <li class="idx" data-cat="nursery"><span class="idx-tab">Nursery</span><div class="idx-body"><h3><a href="./best-baby-monitor-without-wifi/">Best baby monitors without WiFi</a></h3><p>Private, subscription-free monitors compared with Nanit and Owlet, and what pediatricians say about breathing trackers.</p></div></li>
+    <li class="idx" data-cat="registry"><span class="idx-tab">Registry</span><div class="idx-body"><h3><a href="./minimalist-baby-registry/">Minimalist baby registry for small spaces</a></h3><p>A lean, data-backed list, plus Babylist vs Amazon vs Target for where to put it.</p></div></li>
+  </ul>
 </section>
 
-<section class="wrap-narrow" aria-labelledby="how-h" style="padding-bottom:48px">
+<section class="wrap how" aria-labelledby="how-h">
   <h2 id="how-h">How these guides work</h2>
   <p>Every guide starts from official product pages and manuals, then adds what parents report on Reddit and in independent reviews. Everything recommended is checked against the US CPSC recall list, and sleep products follow American Academy of Pediatrics guidance: no inclined sleepers, loungers for sleep or weighted sleep sacks, ever.</p>
   <p>This is product information, not medical advice. For feeding, recovery or your baby's health, ask your doctor, midwife, pediatrician or an IBCLC lactation consultant.</p>
