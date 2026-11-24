@@ -1,0 +1,9 @@
+# Netlify: connect this folder's Git repo (or drag-and-drop dist/ after building).
+# HTTPS: Netlify issues a free certificate and redirects http:// to https://
+# automatically. Security headers (HSTS, CSP, X-Frame-Options...) and the
+# /assets/* cache rule live in site/_headers, which the build copies into dist/
+# so they apply to Git deploys AND drag-and-drop deploys. Keep them identical
+# to the headers in vercel.json.
+[build]
+  command = "python3 scripts/apply_links.py"
+  publish = "dist"

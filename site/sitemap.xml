@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{SITE_URL}}/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>{{SITE_URL}}/about/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>{{SITE_URL}}/disclosure/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>{{SITE_URL}}/privacy/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>{{SITE_URL}}/terms/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>{{SITE_URL}}/contact/</loc><lastmod>2026-11-22</lastmod></url>
+  <url><loc>{{SITE_URL}}/best-wearable-breast-pump/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>{{SITE_URL}}/best-baby-bottle-washer/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>{{SITE_URL}}/c-section-recovery-essentials/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>{{SITE_URL}}/best-baby-monitor-without-wifi/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>{{SITE_URL}}/minimalist-baby-registry/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>{{SITE_URL}}/black-friday-baby-deals/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>{{SITE_URL}}/momcozy-m5-vs-m9-vs-eufy-s1/</loc><lastmod>2026-11-18</lastmod></url>
+</urlset>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Little Nest Notes</title>
+<meta name="description" content="Send a question, a correction or a recall tip to Little Nest Notes. I read every message and fix mistakes fast.">
+<link rel="canonical" href="{{SITE_URL}}/contact/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Little Nest Notes">
+<meta property="og:title" content="Contact Little Nest Notes">
+<meta property="og:description" content="Send a question, a correction or a recall tip to Little Nest Notes. I read every message and fix mistakes fast.">
+<meta property="og:url" content="{{SITE_URL}}/contact/">
+<meta property="og:image" content="{{SITE_URL}}/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Little Nest Notes: honest, safety-checked baby and postpartum gear guides">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{SITE_URL}}/assets/og-image.png">
+<meta name="theme-color" content="#9c4526">
+<link rel="icon" href="../favicon.ico" sizes="48x48">
+<link rel="icon" href="../assets/logo.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../"><img class="brand-mark" src="../assets/logo.svg" alt="" width="28" height="28">Little Nest Notes</a>
+    <nav class="nav" aria-label="Main">
+      <a href="../#guides">Guides</a>
+      <a href="../about/">About</a>
+      <a href="../disclosure/">Disclosure</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="wrap-narrow article">
+  <h1>Contact</h1>
+  <p class="lede">Found a mistake, a price that changed or a recall I missed? Have a question about a guide? Send me a note.</p>
+  <p class="small">I can't give medical or lactation advice, so please don't include health details. Brands: I don't accept paid placements. Prefer email? Write to <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a>.</p>
+
+  <form class="form" name="contact" method="POST" action="./thanks/" data-netlify="true" netlify-honeypot="bot-field" data-contact data-fallback-email="{{CONTACT_EMAIL}}">
+    <input type="hidden" name="form-name" value="contact">
+    <p class="visually-hidden" aria-hidden="true">
+      <label>Leave this field empty <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+    </p>
+    <div class="field">
+      <label for="cf-name">Your name</label>
+      <input id="cf-name" name="name" type="text" autocomplete="name" required minlength="2" maxlength="80" aria-describedby="cf-name-error">
+      <span class="field-error" id="cf-name-error" aria-live="polite"></span>
+    </div>
+    <div class="field">
+      <label for="cf-email">Your email</label>
+      <span class="hint" id="cf-email-hint">Only used to reply to you.</span>
+      <input id="cf-email" name="email" type="email" autocomplete="email" inputmode="email" required maxlength="254" aria-describedby="cf-email-hint cf-email-error">
+      <span class="field-error" id="cf-email-error" aria-live="polite"></span>
+    </div>
+    <div class="field">
+      <label for="cf-message">Message</label>
+      <textarea id="cf-message" name="message" required minlength="10" maxlength="3000" rows="6" aria-describedby="cf-message-error"></textarea>
+      <span class="field-error" id="cf-message-error" aria-live="polite"></span>
+    </div>
+    <button type="submit" class="btn">Send message</button>
+    <p class="form-status" role="status" tabindex="-1"></p>
+    <p class="small">Your name, email and message are stored only to reply to you and deleted within 12 months. See the <a href="../privacy/">privacy policy</a>.</p>
+  </form>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <a href="../">Home</a><a href="../about/">About</a><a href="../disclosure/">Affiliate disclosure</a><a href="../privacy/">Privacy</a><a href="../terms/">Terms</a><a href="../contact/">Contact</a><a href="../links/">Links</a>
+    </nav>
+    <p>Little Nest Notes earns commissions from some links. Product information only, not medical advice. Prices change often: confirm on the retailer's site before you buy. &copy; 2026 {{AUTHOR_NAME}}.</p>
+  </div>
+</footer>
+</body>
+</html>

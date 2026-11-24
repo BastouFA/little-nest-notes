@@ -1,0 +1,15 @@
+# Netlify headers. This file is copied into dist/, so it also works when you
+# drag-and-drop dist/ onto Netlify (netlify.toml is not uploaded in that case).
+# Keep these identical to the headers in vercel.json and the CSP in
+# scripts/apply_links.py (the build warns if the CSP drifts).
+# HTTPS itself: Netlify redirects http:// to https:// automatically.
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://plausible.io; connect-src 'self' https://plausible.io; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+
+/assets/*
+  Cache-Control: public, max-age=604800

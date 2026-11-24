@@ -1,0 +1,17 @@
+dist/
+.DS_Store
+.playwright-mcp/
+# Local environment files (never commit real values; .env.example is the template)
+.env
+.env.*
+!.env.example
+
+# Private planning files: kept on this Mac, never pushed to the public repo
+research.md
+demand-analysis.md
+product-notes.md
+LAUNCH.md
+DEPLOY-NOW.md
+PRE-LAUNCH-CHECKLIST.md
+social/
+.claude/
